@@ -1,75 +1,28 @@
+---
+layout: main
+title: CODOS | Website Development Service
+---
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CODOS, Website Development Service</title>
+    <title>CODOS | Website Development Service</title>
     <link rel="icon" href="src/assets/image/codos/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="src/assets/image/codos/favicon.ico" type="image/x-icon">
-    <!--<link rel="stylesheet" href="./src/assets/css/fontawesome/5.4.1/all.css">-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="../src/assets/font/iconfont.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
-    <!-- Bulma Version 0.7.4-->
-    <!--<link rel="stylesheet" href="./src/assets/css/bulma/0.7.4/css/bulma.min.css" />-->
-    <link rel="stylesheet" href="./src/assets/css/bulma/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="./src/assets/css/style.css">
-    <!--<link rel="stylesheet" type="text/css" href="./src/assets/css/mystyles.css">-->
-    <script async type="text/javascript" src="./src/assets/plugins/bulma.js"></script>
+    
 </head>
 
 <body>
-    <!-- Navigation bar -->
-    <nav class="navbar is-fresh is-transparent is-fixed-top has-shadow">
-
-        <div class="navbar-brand">
-            <a class="navbar-item" href="#">
-                <img class="is-shadowless" src="src/assets/image/codos/logo/logo-codos-1.png" alt="" width="112"
-                    height="28">
-            </a>
-            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-
-        <div id="navbarExampleTransparentExample" class="navbar-menu">
-
-            <div class="navbar-end">
-                <a class="navbar-item" href="#about">
-                    <span class="icon">
-                        <i class="fas fa-info"></i>
-                    </span>
-                    <span>About</span>
-                </a>
-                <a class="navbar-item" href="#services">
-                    <span class="icon">
-                        <i class="fas fa-bars"></i>
-                    </span>
-                    <span>Services</span>
-                </a>
-                <a class="navbar-item" href="#portfolio">
-                    <span class="icon">
-                        <i class="fas fa-th-list"></i>
-                    </span>
-                    <span>Portfolio</span>
-                </a>
-                <a class="navbar-item" href="#contact">
-                    <span class="icon">
-                        <i class="fas fa-envelope"></i>
-                    </span>
-                    <span>Contact</span>
-                </a>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Header -->
+    <!-- Hero Header -->
     <section class="hero is-white is-fullheight is-fullheight-with-navbar">
         <div class="hero-body">
             <div class="container has-text-centered">
@@ -114,12 +67,12 @@
                                     <th colspan="2"></th>
                                 </tr>
                                 <tr>
-                                    <td>Phone:</td>
+                                    <td>Phone</td>
                                     <td>021 042 7652</td>
                                 </tr>
                                 <tr>
-                                    <td>Email:</td>
-                                    <td>Contact@Codos.co.nz</td>
+                                    <td>Email</td>
+                                    <td>contact@codos.co.nz</td>
                                 </tr>
                             </table>
                         </div>
@@ -316,9 +269,10 @@
                                     <div class="field">
                                         <label class="label" for="email">Email</label>
                                         <div class="control has-icons-left">
+                                                <span class="iconfont icon-email"></span>
                                             <input class="input email-danger" id="email" name="email" type="email"
                                                 value="" placeholder="Please input your Email" required>
-                                            <span class="icon is-small is-left"><i class="fas fa-envelope"></i></span>
+                                                
                                         </div>
                                         <span class="email-invalid" style="display:none; color: rgba(196,0,23,.95)">
                                             Must be a valid email address</span>
@@ -337,21 +291,15 @@
                                     <fieldset class="field-group">
                                         <div class="field is-grouped has-text-centered">
                                             <div class="control">
-                                                <button class="button is-link is-large is-danger"><span class="icon">
-                                                        <i class="fas fa-envelope"></i>
-                                                    </span>
+                                                <button class="button is-link is-large is-danger">
+                                                        <span class="iconfont icon-email"></span>
                                                     <span>Submit</span></button>
                                             </div>
                                         </div>
                                     </fieldset>
 
-
-
-                                    <!-- <button class="button-success pure-button button-xlarge">
-                                        <i class="fa fa-paper-plane"></i>&nbsp;Send</button> -->
                             </div>
 
-                            <!-- Customise the Thankyou Message People See when they submit the form: -->
                             <div class="thankyou_message" style="display:none;">
                                 <h4 class="is-5">Thanks for contacting us!
                                     We will get back to you soon!</h4>
@@ -365,37 +313,11 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="section-heading">
-            <div class="container">
-                <div class="columns is-gapless has-text-centered">
-
-                    <div class="column is-1"></div>
-                    <div class="column is-3">© 2019 SDJB Ltd</div>
-                    <div class="column is-1">Terms</div>
-                    <div class="column is-1">Privacy</div>
-                    <div class="column is-1">Contact</div>
-                    <div class="column is-1">About</div>
-                    <div class="column is-3">
-                        <p class="has-text-centered">
-                            Proudly hosted by
-                            <a href="https://codos.co.nz">
-                                <img class="is-shadowless" src="./src/assets/image/codos/logo/logo-codos-footer.png"
-                                    width="61" height="15" alt="CODOS">
-                            </a>
-                        </p>
-                    </div>
-                    <div class="column is-1"></div>
-                </div>
-             
-            </div>
-        </div>
-        </div>
-    </footer>
-    <!--Your security token is 084ab024-5f7f-4d37-bb5d-1a025b0df251 Please take note of this.-->
+    
 
     <script data-cfasync="false" src="./src/assets/plugins/form-submission-handler.js"></script>
+
+
 </body>
 
 </html>
