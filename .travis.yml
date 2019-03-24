@@ -29,6 +29,6 @@ deploy:
   skip_cleanup: true
   keep-history: true
   local_dir: _site/  # deploy this directory containing final build
-  github_token: 6627422cf4ab0a3e1d72ed6ed5153b008fb8b11e # Set in travis-ci.org dashboard
+  github_token: $6627422cf4ab0a3e1d72ed6ed5153b008fb8b11e # Set in travis-ci.org dashboard
   on:
     branch: master
