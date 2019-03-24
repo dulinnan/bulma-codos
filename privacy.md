@@ -5,6 +5,7 @@ permalink: /privacy
 ---
 
 # Codos Privacy Policy
+*Last Updated: 24 March, 2019*
 
 This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from www.codos.co.nz (the “Site”).
 

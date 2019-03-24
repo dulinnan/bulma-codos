@@ -5,6 +5,7 @@ permalink: /terms
 ---
 
 # Terms and Conditions
+*Last Updated: 24 March, 2019*
 
 *SDJB Ltd (Trading as) Codos - Website Development Services.*
 

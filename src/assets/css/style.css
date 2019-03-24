@@ -1,13 +1,3 @@
-/*#navbar {*/
-    /*transition:box-shadow 1s;*/
-    /*-moz-transition:box-shadow 1s;*/
-    /*-webkit-transition:box-shadow 1s;*/
-    /*-ms-transition:box-shadow 1s;*/
-    /*-o-transition:box-shadow 1s;*/
-/*}*/
-/*#navbar.shadow {*/
-    /*box-shadow: 0 0 1rem 0 rgba(0,0,0,0.33) !important;*/
-/*}*/
 body {
     font-family: "Nunito", sans-serif;
 
@@ -17,6 +7,7 @@ body {
     background-color: #F7F7F7;
     color: #000000;
 }
+
 .brand-name {
     font-family: 'Source Code Pro', monospace;
     font-size: 4rem;
@@ -25,15 +16,12 @@ body {
 
 }
 
-/*.title .slogan {*/
-    /*color: #000000;*/
-/*}*/
-
 .blink-cursor {
     animation: blink 1s steps(1) infinite;
     /*box-shadow: 0 0 1rem 0 rgba(0,0,0,0.33) !important;*/
 }
-@keyframes blink{
+
+@keyframes blink {
     50% {
         color: transparent;
     }
@@ -45,7 +33,7 @@ body {
 }
 
 .navbar-menu a:hover {
-    color: rgba(196,0,23,.95);
+    color: rgba(196, 0, 23, .95);
 }
 
 .has-same-height .card {
@@ -92,7 +80,7 @@ th {
 }
 
 .button.is-danger {
-    background-color: rgba(196,0,23,.95);
+    background-color: rgba(196, 0, 23, .95);
 }
 
 .sr-only {
@@ -102,10 +90,11 @@ th {
     padding: 0;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0,0,0,0);
+    clip: rect(0, 0, 0, 0);
     border: 0;
-  }
+}
 
 #honeypot {
-    display: none; /*makes the field not visible to humans*/
-  }
+    display: none;
+    /*makes the field not visible to humans*/
+}
